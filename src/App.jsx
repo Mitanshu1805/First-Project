@@ -4,7 +4,7 @@ import Button from "./Button";
 import ShowName from "./ShowName";
 
 function App() {
-  let name = "Mitanshu";
+  let name = "World";
   return (
     <div className="bg-black h-screen text-white flex flex-col gap-5 justify-center items-center">
       <div>
