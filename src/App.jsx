@@ -6,14 +6,16 @@ import ShowName from "./ShowName";
 function App() {
   let name = "Mitanshu";
   return (
-    <>
-      <h1>Hello {name}</h1>
+    <div className="bg-black h-screen text-white flex flex-col gap-5 justify-center items-center">
+      <div>
+        <h1 className="text-3xl font-bold underline">Hello {name}!</h1>
+      </div>
+
       <Button />
       <ShowName />
 
-      {/* num1 and num 2 are props */}
       <AddTwoNumbers num1={7} num2={3} />
-    </>
+    </div>
   );
 }
 
