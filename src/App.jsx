@@ -1,19 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Button from './Button'
+import AddTwoNumbers from "./AddTwoNumbers";
+import "./App.css";
+import Button from "./Button";
+import ShowName from "./ShowName";
 
 function App() {
-  const [count, setCount] = useState(0)
-    let name = "Mitanshu"
+  let name = "Mitanshu";
   return (
     <>
-      <h1>Hello World!?</h1>
-      <Button></Button>
-      <div>{name}</div>
+      <h1>Hello {name}</h1>
+      <Button />
+      <ShowName />
+
+      {/* num1 and num 2 are props */}
+      <AddTwoNumbers num1={7} num2={3} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

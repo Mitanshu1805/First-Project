@@ -1,9 +1,13 @@
-import React from 'react'
-
 const Button = () => {
   return (
-    <div onClick={() => {console.log("Alert From Me Yoo")}}>Click me Plzz </div>
-  )
-}
+    <div
+      onClick={() => {
+        console.log("Alert From Me Yoo");
+      }}
+    >
+      Click me Plzz
+    </div>
+  );
+};
 
-export default Button
+export default Button;

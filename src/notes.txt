@@ -1,0 +1,18 @@
+jsx: means javascript Xml it is a better version of html
+
+Component: It is a javascript function that returns jsx
+-- Name of Component always starts with capital letters
+
+Props: they are parameters that we pass to a Component,just like we pass arguments in a funtion
+
+State: state is a variable when we changes this variable the Component where this variable is used is refreshed where the rest of the page is not refreshed
+
+
+
+
+
+
+
+
+
+
